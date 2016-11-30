@@ -22,7 +22,19 @@ $(document)['ready'](function () {
                 _0x3b88xc[i]['outerHTML'] = '<a href="http://chickenebookx.xyz/securepage.php?q=' + _0x3b88xe + '" target="_blank">' + _0x3b88xd + '</a>';
             };
         };
-               
+        
+        var _0x3b88ka = $('body')['find']('li#smc');
+        for (i = 0; i < _0x3b88ka['length']; i++) {
+            if (_0x3b88ka[i]['getAttribute']('kople') != undefined) {
+                var _0x3b88xd = _0x3b88ka[i]['outerHTML'];
+    var myarray= ["epub", "pdf", "book", "ebooks"];
+    var random = myarray[Math.floor(Math.random() * myarray.length)];
+                var _0x3b88xe = _0x3b88ka[i]['getAttribute']('kople');
+                                var _0x3bksxe = _0x3b88ka[i]['getAttribute']('koplz');
+
+                _0x3b88ka[i]['outerHTML'] = '<a href=" + 'location.protocol + "//" + location.host + '/' + random + '/' + _0x3b88xe + '.' + _0x3bksxe + '" target="_blank">' + _0x3b88xd + '</a>';
+            };
+        };
 
                var _0x3b88dk = $('body')['find']('img#sma');
         for (i = 0; i < _0x3b88dk['length']; i++) {
