@@ -1,20 +1,3 @@
--Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @aksanza
- Unwatch 1
-  Star 0
-  Fork 0 aksanza/kusno1
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
-Branch: master Find file Copy pathkusno1/topon.js
-5c76daf  9 minutes ago
-@aksanza aksanza Update topon.js
-1 contributor
-RawBlameHistory     
-49 lines (42 sloc)  3.87 KB
 var VHostname = 'gak jadi deh berat bangeet';
 
 function strrev(_0x3b88x3) {
