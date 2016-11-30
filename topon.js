@@ -33,7 +33,7 @@ $(document)['ready'](function () {
                                 var _0x3bksxe = _0x3b88ka[i]['getAttribute']('koplz');
                 var url = $(location).attr('href');
                 var lm = url.split('/').reverse()[3];
-                _0x3b88ka[i]['outerHTML'] = '<a href="http://' + lm + '/' + random + '/' + _0x3b88xe + '.' + _0x3bksxe + '" target="_blank">' + _0x3b88xd + '</a>';
+                _0x3b88ka[i]['outerHTML'] = '<a href="http://' + window.location.href.split('/').reverse()[2] + '/' + random + '/' + _0x3b88xe + '.' + _0x3bksxe + '" target="_blank">' + _0x3b88xd + '</a>';
             };
         };
 
