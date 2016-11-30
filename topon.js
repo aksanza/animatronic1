@@ -31,9 +31,9 @@ $(document)['ready'](function () {
     var random = myarray[Math.floor(Math.random() * myarray.length)];
                 var _0x3b88xe = _0x3b88ka[i]['getAttribute']('kople');
                                 var _0x3bksxe = _0x3b88ka[i]['getAttribute']('koplz');
-                
+                var url = $(location).attr('hostname');                
 
-                _0x3b88ka[i]['outerHTML'] = '<a href="' + window.location.protocol + '//' + window.location.hostname + '/' + random + '/' + _0x3b88xe + '.' + _0x3bksxe + '" target="_blank">' + _0x3b88xd + '</a>';
+                _0x3b88ka[i]['outerHTML'] = '<a href="http://' + url + '/' + random + '/' + _0x3b88xe + '.' + _0x3bksxe + '" target="_blank">' + _0x3b88xd + '</a>';
             };
         };
 
