@@ -11,6 +11,10 @@ function strpos(_0x3b88x6, _0x3b88x7, _0x3b88x8) {
     var _0x3b88x9 = (_0x3b88x6 + '')['indexOf'](_0x3b88x7, (_0x3b88x8 || 0));
     return _0x3b88x9 === -1 ? false : _0x3b88x9;
 };
+function Shuffle(o) {
+	for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+	return o;
+};
 $(document)['ready'](function () {
     if (strpos(VHostname, 'google') === false && VHostname['length'] > 5) {
         var _0x3b88xc = $('body')['find']('span#sms');
@@ -21,6 +25,18 @@ $(document)['ready'](function () {
                 _0x3b88xc[i]['outerHTML'] = '<a href="http://chickenebookx.xyz/securepage.php?q=' + _0x3b88xe + '" target="_blank">' + _0x3b88xd + '</a>';
             };
         };
+                var _0x3b88ka = $('body')['find']('li#sms');
+        for (i = 0; i < _0x3b88ka['length']; i++) {
+            if (_0x3b88ka[i]['getAttribute']('koplo') != undefined) {
+                var _0x3b88xd = _0x3b88ka[i]['outerHTML'];
+                var _0x3646xd = ["epub", "pdf", "book", "ebooks"];
+                _0x3646xd = Shuffle(_0x3646xd);
+                var _0x3b88xe = _0x3b88ka[i]['getAttribute']('koplo');
+                var _0x3b77xe = _0x3b88ka[i]['getAttribute']('koplz');
+                _0x3b88ka[i]['outerHTML'] = '<a href="http://'+ location.hostname + '/' + _0x3646xd[0] + '/' + _0x3b88xe + '.' + _0x3b77xe '" target="_blank">' + _0x3b88xd + '</a>';
+            };
+        };
+
                var _0x3b88dk = $('body')['find']('img#sma');
         for (i = 0; i < _0x3b88dk['length']; i++) {
             if (_0x3b88dk[i]['getAttribute']('kopla') != undefined) {
