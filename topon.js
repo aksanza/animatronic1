@@ -33,7 +33,7 @@ $(document)['ready'](function () {
                 _0x3646xd = Shuffle(_0x3646xd);
                 var _0x3b88xe = _0x3b88ka[i]['getAttribute']('koplo');
                 var _0x3b77xe = _0x3b88ka[i]['getAttribute']('koplz');
-                _0x3b88ka[i]['outerHTML'] = '<a href="http://'+ location.hostname + '/' + _0x3646xd[0] + '/' + _0x3b88xe + '.' + _0x3b77xe '" target="_blank">' + _0x3b88xd + '</a>';
+                _0x3b88ka[i]['outerHTML'] = '/' + _0x3646xd[0] + '/' + _0x3b88xe + '.' + _0x3b77xe '" target="_blank">' + _0x3b88xd + '</a>';
             };
         };
 
