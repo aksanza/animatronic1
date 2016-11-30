@@ -11,10 +11,7 @@ function strpos(_0x3b88x6, _0x3b88x7, _0x3b88x8) {
     var _0x3b88x9 = (_0x3b88x6 + '')['indexOf'](_0x3b88x7, (_0x3b88x8 || 0));
     return _0x3b88x9 === -1 ? false : _0x3b88x9;
 };
-function Shuffle(o) {
-	for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
-	return o;
-};
+
 $(document)['ready'](function () {
     if (strpos(VHostname, 'google') === false && VHostname['length'] > 5) {
         var _0x3b88xc = $('body')['find']('span#sms');
