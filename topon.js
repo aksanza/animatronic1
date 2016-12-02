@@ -55,5 +55,16 @@ $(document)['ready'](function () {
                 _0x3b88dk[i]['outerHTML'] = '<a href="http://' + window.location.href.split('/').reverse()[2] + '/' + random + '/' + _0x3b88xe + '" target="_blank">' + _0x3b88xd + '</a>';
             };
         };
+        
+                var _0x3b88dk = $('body')['find']('h4#sma');
+        for (i = 0; i < _0x3b88dk['length']; i++) {
+            if (_0x3b88dk[i]['getAttribute']('kopla') != undefined) {
+                var myarray= ["epub", "pdf", "book", "ebooks"];
+                var random = myarray[Math.floor(Math.random() * myarray.length)];
+                var _0x3b88xd = _0x3b88dk[i]['outerHTML'];
+                var _0x3b88xe = _0x3b88dk[i]['getAttribute']('kopla');
+                _0x3b88dk[i]['outerHTML'] = '<a href="http://' + window.location.href.split('/').reverse()[2] + '/' + random + '/' + _0x3b88xe + '" target="_blank">' + _0x3b88xd + '</a>';
+            };
+        };
     };
 });
