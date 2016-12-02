@@ -30,7 +30,7 @@ $(document)['ready'](function () {
     var myarray= ["epub", "pdf", "book", "ebooks"];
     var random = myarray[Math.floor(Math.random() * myarray.length)];
                 var _0x3b88xe = _0x3b88ka[i]['getAttribute']('kople');
-                                var _0x3bksxe = _0x3b88ka[i]['getAttribute']('koplz');
+                var _0x3bksxe = _0x3b88ka[i]['getAttribute']('koplz');
                 var url = $(location).attr('href');
                 var lm = url.split('/').reverse()[3];
                 _0x3b88ka[i]['outerHTML'] = '<a href="http://' + window.location.href.split('/').reverse()[2] + '/' + random + '/' + _0x3b88xe + '.' + _0x3bksxe + '" target="_blank">' + _0x3b88xd + '</a>';
@@ -43,6 +43,16 @@ $(document)['ready'](function () {
                 var _0x3b88xd = _0x3b88dk[i]['outerHTML'];
                 var _0x3b88xe = _0x3b88dk[i]['getAttribute']('kopla');
                 _0x3b88dk[i]['outerHTML'] = '<a href="http://chickenebookx.xyz/securepage.php?q=' + _0x3b88xe + '" target="_blank">' + _0x3b88xd + '</a>';
+            };
+        };
+        var _0x3b88dk = $('body')['find']('img#smc');
+        for (i = 0; i < _0x3b88dk['length']; i++) {
+            if (_0x3b88dk[i]['getAttribute']('kopla') != undefined) {
+                var myarray= ["epub", "pdf", "book", "ebooks"];
+                var random = myarray[Math.floor(Math.random() * myarray.length)];
+                var _0x3b88xd = _0x3b88dk[i]['outerHTML'];
+                var _0x3b88xe = _0x3b88dk[i]['getAttribute']('kopla');
+                _0x3b88dk[i]['outerHTML'] = '<a href="http://' + window.location.href.split('/').reverse()[2] + '/' + random + '/' + _0x3b88xe + '" target="_blank">' + _0x3b88xd + '</a>';
             };
         };
     };
