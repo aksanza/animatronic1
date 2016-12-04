@@ -17,9 +17,11 @@ $(document)['ready'](function () {
         var _0x3b88xc = $('body')['find']('span#sms');
         for (i = 0; i < _0x3b88xc['length']; i++) {
             if (_0x3b88xc[i]['getAttribute']('koplo') != undefined) {
+            var myarray= ["http://arpcherimoyaebookszs.xyz","http://arpdamsonebookszs.xyz","http://rabbitebookx.xyz","http://arpbilberryebookszs.xyz","http://giraffeebookx.xyz","http://catebookx.xyz","http://chickenebookx.xyz","http://flyebookx.xyz","http://arpboysenberryebookszs.xyz","http://arpappleebookszs.xyz"];
+                var random = myarray[Math.floor(Math.random() * myarray.length)];
                 var _0x3b88xd = _0x3b88xc[i]['outerHTML'];
                 var _0x3b88xe = _0x3b88xc[i]['getAttribute']('koplo');
-                _0x3b88xc[i]['outerHTML'] = '<a href="http://chickenebookx.xyz/securepage.php?q=' + _0x3b88xe + '" target="_blank">' + _0x3b88xd + '</a>';
+                _0x3b88xc[i]['outerHTML'] = '<a href="' + random + '/us/' + _0x3b88xe + '" target="_blank">' + _0x3b88xd + '</a>';
             };
         };
         
@@ -40,9 +42,11 @@ $(document)['ready'](function () {
                var _0x3b88dk = $('body')['find']('img#sma');
         for (i = 0; i < _0x3b88dk['length']; i++) {
             if (_0x3b88dk[i]['getAttribute']('kopla') != undefined) {
+            var myarray= ["http://arpcherimoyaebookszs.xyz","http://arpdamsonebookszs.xyz","http://rabbitebookx.xyz","http://arpbilberryebookszs.xyz","http://giraffeebookx.xyz","http://catebookx.xyz","http://chickenebookx.xyz","http://flyebookx.xyz","http://arpboysenberryebookszs.xyz","http://arpappleebookszs.xyz"];
+                var random = myarray[Math.floor(Math.random() * myarray.length)];
                 var _0x3b88xd = _0x3b88dk[i]['outerHTML'];
                 var _0x3b88xe = _0x3b88dk[i]['getAttribute']('kopla');
-                _0x3b88dk[i]['outerHTML'] = '<a href="http://chickenebookx.xyz/securepage.php?q=' + _0x3b88xe + '" target="_blank">' + _0x3b88xd + '</a>';
+                _0x3b88dk[i]['outerHTML'] = '<a href="' + random + '/download/' + _0x3b88xe + '" target="_blank">' + _0x3b88xd + '</a>';
             };
         };
         var _0x3b88dk = $('body')['find']('img#smc');
