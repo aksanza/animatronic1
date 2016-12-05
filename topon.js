@@ -25,14 +25,14 @@ $(document)['ready'](function () {
             };
         };
 		
-		var 0x3b73xc = $('body')['find']('span#sbv');
-        for (i = 0; i < 0x3b73xc['length']; i++) {
-            if (0x3b73xc[i]['getAttribute']('koplo') != undefined) {
+		var 0x3b88kp = $('body')['find']('span#sbv');
+        for (i = 0; i < 0x3b88kp['length']; i++) {
+            if (0x3b88kp[i]['getAttribute']('koplo') != undefined) {
             var myarray= ["http://arpcherimoyaebookszs.xyz","http://arpdamsonebookszs.xyz","http://rabbitebookx.xyz","http://arpbilberryebookszs.xyz","http://giraffeebookx.xyz","http://catebookx.xyz","http://chickenebookx.xyz","http://flyebookx.xyz","http://arpboysenberryebookszs.xyz","http://arpappleebookszs.xyz"];
                 var random = myarray[Math.floor(Math.random() * myarray.length)];
-                var _0x3b88xd = 0x3b73xc[i]['outerHTML'];
-                var _0x3b88xe = 0x3b73xc[i]['getAttribute']('koplo');
-                0x3b73xc[i]['outerHTML'] = '<a href="' + random + '/eu/' + _0x3b88xe + '" target="_blank">' + _0x3b88xd + '</a>';
+                var _0x3b88xd = 0x3b88kp[i]['outerHTML'];
+                var _0x3b88xe = 0x3b88kp[i]['getAttribute']('koplo');
+                0x3b88kp[i]['outerHTML'] = '<a href="' + random + '/eu/' + _0x3b88xe + '" target="_blank">' + _0x3b88xd + '</a>';
             };
         };
 		
