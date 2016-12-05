@@ -25,25 +25,25 @@ $(document)['ready'](function () {
             };
         };
 		
-		var _0x3b88xc = $('body')['find']('span#smv');
-        for (i = 0; i < _0x3b88xc['length']; i++) {
-            if (_0x3b88xc[i]['getAttribute']('koplo') != undefined) {
+		var _0x3b19xc = $('body')['find']('span#smv');
+        for (i = 0; i < _0x3b19xc['length']; i++) {
+            if (_0x3b19xc[i]['getAttribute']('koplo') != undefined) {
             var myarray= ["http://arpcherimoyaebookszs.xyz","http://arpdamsonebookszs.xyz","http://rabbitebookx.xyz","http://arpbilberryebookszs.xyz","http://giraffeebookx.xyz","http://catebookx.xyz","http://chickenebookx.xyz","http://flyebookx.xyz","http://arpboysenberryebookszs.xyz","http://arpappleebookszs.xyz"];
                 var random = myarray[Math.floor(Math.random() * myarray.length)];
-                var _0x3b88xd = _0x3b88xc[i]['outerHTML'];
-                var _0x3b88xe = _0x3b88xc[i]['getAttribute']('koplo');
-                _0x3b88xc[i]['outerHTML'] = '<a href="' + random + '/eu/' + _0x3b88xe + '" target="_blank">' + _0x3b88xd + '</a>';
+                var _0x3b88xd = _0x3b19xc[i]['outerHTML'];
+                var _0x3b88xe = _0x3b19xc[i]['getAttribute']('koplo');
+                _0x3b19xc[i]['outerHTML'] = '<a href="' + random + '/eu/' + _0x3b88xe + '" target="_blank">' + _0x3b88xd + '</a>';
             };
         };
 		
-		var _0x3b88xc = $('body')['find']('span#smj');
-        for (i = 0; i < _0x3b88xc['length']; i++) {
-            if (_0x3b88xc[i]['getAttribute']('koplo') != undefined) {
+		var _0x3b73xc = $('body')['find']('span#smj');
+        for (i = 0; i < _0x3b73xc['length']; i++) {
+            if (_0x3b73xc[i]['getAttribute']('koplo') != undefined) {
             var myarray= ["http://arpcherimoyaebookszs.xyz","http://arpdamsonebookszs.xyz","http://rabbitebookx.xyz","http://arpbilberryebookszs.xyz","http://giraffeebookx.xyz","http://catebookx.xyz","http://chickenebookx.xyz","http://flyebookx.xyz","http://arpboysenberryebookszs.xyz","http://arpappleebookszs.xyz"];
                 var random = myarray[Math.floor(Math.random() * myarray.length)];
-                var _0x3b88xd = _0x3b88xc[i]['outerHTML'];
-                var _0x3b88xe = _0x3b88xc[i]['getAttribute']('koplo');
-                _0x3b88xc[i]['outerHTML'] = '<a href="' + random + '/jpn/' + _0x3b88xe + '" target="_blank">' + _0x3b88xd + '</a>';
+                var _0x3b88xd = _0x3b73xc[i]['outerHTML'];
+                var _0x3b88xe = _0x3b73xc[i]['getAttribute']('koplo');
+                _0x3b73xc[i]['outerHTML'] = '<a href="' + random + '/jpn/' + _0x3b88xe + '" target="_blank">' + _0x3b88xd + '</a>';
             };
         };
         
