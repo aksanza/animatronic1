@@ -1,33 +1,3 @@
-/*
-Theme Name: kusno1
-Theme URI: http://sukusno.ws/kusno1-theme
-Author: sukusno K.
-Author URI: http://sukusno.ws/
-Description: Responsive customizable multi-purpose theme based on Bootstrap 3 framework. Three widget areas, changeable colors and page look, export/import settings, translation ready.
-Version: 1.2.8
-License: GNU General Public License v3.0
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Text Domain: kusno1theme
-Domain Path: /languages/
-Tags: theme-options, two-columns, white, light, custom-colors, two-columns, one-column, left-sidebar, right-sidebar, fluid-layout, responsive-layout, custom-background, featured-images, rtl-language-support, sticky-post, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-*/
-
-/*
-
-kusno1 Theme, including demo images (C) 2013 sukusnok http://profiles.wordpress.org/sukusnok
-kusno1 is distributed under the terms of the GNU General Public License v3.0
-
-kusno1 theme is based on Underscores theme quick start pack http://underscores.me/ (C) 2012-2013 Automattic, Inc.
-and Bootstrap 3 framework http://getbootstrap.com/ (Apache License v2.0, (C) 2013 Twitter, Inc.)
-
-IE8 compatibility is achieved by using of Respond.js https://github.com/scottjehl/respond (MIT/BSD license)
-and HTML5 Shiv http://code.google.com/p/html5shiv/ (MIT/GPL2 Licensed)
-
-*/
 
 img.site-logo {
 	margin: 20px 15px 10px 0;
